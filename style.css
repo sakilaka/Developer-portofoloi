@@ -11,7 +11,7 @@ h1{
 .text{
     text-align: justify;
 }
-section{
+.flex{
     display: flex;
     margin-bottom: 120px;
 }
@@ -46,5 +46,28 @@ section{
     background-position: right;
 
    
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    
+}
+.padding{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    
+}
+.shadow{
+    box-shadow: 10px 5px 20px greenyellow;
+    padding: 10px;
+}
+.shadow2{
+    box-shadow: 10px 5px 20px blueviolet;
+    padding: 10px;
+    margin: 10px;
+}
+footer p{
+    text-align: center;
 }
 
